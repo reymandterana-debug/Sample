@@ -66,3 +66,174 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Login Styles */
+#loginContainer {
+    max-width: 400px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-box a {
+    color: #2196F3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
+
+/* App Styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    background-color: #f44336;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.save-btn {
+    background-color: #2196F3;
+    margin-top: 15px;
+}
+
+.save-btn:hover {
+    background-color: #0b7dda;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+.status-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.present {
+    background-color: #4CAF50;
+}
+
+.absent {
+    background-color: #f44336;
+}
+
+.selected {
+    border: 2px solid #333;
+}
+
+#recordsContainer {
+    margin-top: 15px;
+}
+
+.record-date {
+    background: #e8f5e9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
